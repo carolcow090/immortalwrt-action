@@ -38,7 +38,7 @@ jobs:
 
     - name: Clone code and run feeds
       run: |
-        git clone -b openwrt-21.02 --depth=1 https://github.com/hanwckf/immortalwrt-mt798x immortalwrt
+        git clone -b nokia --depth=1 https://github.com/1715173329/immortalwrt-mt798x immortalwrt
         cd immortalwrt
         ./scripts/feeds update -a
         ./scripts/feeds install -a
