@@ -61,5 +61,5 @@ jobs:
     - name: Upload firmware directory
       uses: actions/upload-artifact@main
       with:
-        name: Rax3000M_firmware${{ env.FILE_DATE }}
+        name: Custom_firmware${{ env.FILE_DATE }}
         path: ${{ env.FIRMWARE }}
